@@ -1,0 +1,35 @@
+
+.custom-modal .modal-header-custom {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-bottom: none; /* Remove the bottom border */
+  }
+  
+  .custom-modal .close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .custom-modal .modal-dialog {
+    max-width: 90%;
+    width: 90%;
+    margin: auto;
+  }
+  
+  @media (max-width: 1200px) {
+    .custom-modal .modal-dialog {
+      max-width: 95%;
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-modal .modal-dialog {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  

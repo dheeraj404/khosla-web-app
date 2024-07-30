@@ -1,0 +1,44 @@
+.col-md-3{
+    width: 20%;
+    box-shadow: 0 0 10px 0 rgba(203, 203, 203, 0.171);
+    margin-bottom: 10px;
+}
+.home_page_product3{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.623);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 40px;
+}
+
+/* For devices with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    /* Styles go here */
+    .col-md-3{
+        width: 30%;
+        box-shadow: 0 0 10px 0 rgba(203, 203, 203, 0.171);
+    }
+}
+
+/* For devices with a minimum width of 768px */
+@media only screen and (min-width: 768px) {
+    /* Styles go here */
+}
+
+/* For devices with a width between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles go here */
+}
+
+/* For devices with a minimum width of 1024px and a landscape orientation */
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+    /* Styles go here */
+}
+
+/* For devices with a high resolution (Retina displays) */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Styles go here */
+}

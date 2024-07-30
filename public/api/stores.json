@@ -1,0 +1,74 @@
+{
+    "country": "India",
+    "states": [
+      {
+        "name": "West Bengal",
+        "districts": [
+          {
+            "name": "South Kolkata",
+            "stores": [
+              {
+                "name": "Behala Showroom",
+                "phone": "9874249794",
+                "address": "371, 1, Diamond Harbour Rd, Jadu Colony, Behala, Kolkata, West Bengal 700034",
+                "image": "https://example.com/images/behala.jpg"
+              },
+              {
+                "name": "Beckbagan Showroom",
+                "phone": "9874249772",
+                "address": "37, Syed Amir Ali Ave, Park Circus, Ballygunge, Kolkata, West Bengal 700019",
+                "image": "https://example.com/images/beckbagan.jpg"
+              },
+              {
+                "name": "Garia Showroom",
+                "phone": "9874249774",
+                "address": "110, Raja Subodh Chandra Mallick Rd, Milan Park, Laxmi Narayan Colony, Garia, Kolkata, West Bengal 700047",
+                "image": "https://example.com/images/garia.jpg"
+              }
+            ]
+          },
+          {
+            "name": "North Kolkata",
+            "stores": [
+              {
+                "name": "Shyambazar Showroom",
+                "phone": "9874249785",
+                "address": "122, Bidhan Sarani, Hatibagan, Shyam Bazar, Kolkata, West Bengal 700004",
+                "image": "https://example.com/images/shyambazar.jpg"
+              },
+              {
+                "name": "Salt Lake Showroom",
+                "phone": "9874249778",
+                "address": "Sector 1, Salt Lake City, Kolkata, West Bengal 700064",
+                "image": "https://example.com/images/saltlake.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maharashtra",
+        "districts": [
+          {
+            "name": "Mumbai",
+            "stores": [
+              {
+                "name": "Andheri Showroom",
+                "phone": "9874249766",
+                "address": "Plot No. 23, Andheri West, Mumbai, Maharashtra 400053",
+                "image": "https://example.com/images/andheri.jpg"
+              },
+              {
+                "name": "Borivali Showroom",
+                "phone": "9874249767",
+                "address": "Borivali West, Mumbai, Maharashtra 400092",
+                "image": "https://example.com/images/borivali.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  

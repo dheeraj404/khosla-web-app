@@ -1,0 +1,116 @@
+
+.about{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:black;
+    font-weight: 500;
+    font-family: "Montserrat", Sans-serif;
+    
+}
+.c2{
+    margin-top: 2rem;
+
+    
+    font-size: 1rem;
+    color: black;
+   /* // font-family: "Montserrat", Sans-serif; */
+    font-weight: 500;
+}
+.c2 p{
+    font-family: "Montserrat", Sans-serif;
+}
+.c3 h1{
+    margin-top: 2rem;
+    
+    margin-right: 7%;
+
+    color:black;
+   
+    font-family: "Montserrat", Sans-serif;
+}
+
+.c3 h1 {
+    position: relative;
+    
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    /* color: #080808; */
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+ .border_line{
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(255, 0, 0) 30%, rgb(0, 0, 0) 95%, rgba(255, 255, 255, 0.804)) border-box;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 30px;
+   padding: 20px;
+ }
+  /* .three h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+  }
+  .three h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1.6px;
+    width: 40%;
+    background-color: #b02a2a;
+  } */
+  .whatwedo{
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    color: blue;
+  }
+  .list{
+    list-style-type: disc;
+    margin-top: 30px;
+ 
+  }
+  .list li{
+    padding: 4px;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    color: black;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+  }
+  .c3 p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0;
+  }
+.c4{
+    margin-top: 50px;
+}
+.c4 p{
+    color: black;
+    font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.6em;
+}

@@ -1,0 +1,21 @@
+.payment-return-policies {
+    padding: 20px;
+  }
+  
+  .payment-return-policies h1 {
+    margin-bottom: 40px;
+  }
+  
+  .payment-return-policies h2 {
+    margin-top: 40px;
+  }
+  
+  .payment-return-policies section {
+    margin-bottom: 20px;
+  }
+  
+  .payment-return-policies p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  

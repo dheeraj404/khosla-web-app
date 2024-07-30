@@ -1,0 +1,59 @@
+/* Styles for larger screens */
+.top-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat";
+    font-size: .8rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .promotional-text {
+    flex-grow: 1; /* Ensures it takes the available space if links are hidden */
+    margin-left: 10px;/* Centers text when links are hidden */
+  }
+  
+  .link-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link img {
+    width: 15px;
+    margin-right: 5px;
+  }
+  
+  .nav-link:last-child {
+    margin-right: 0;
+  }
+  
+  /* Styles when the screen is less than 900px wide */
+  @media (max-width: 900px) {
+    .top-header {
+      justify-content: center; /* Center the text div */
+      background-color: rgb(241, 81, 81); /* Change background to red */
+    }
+  
+    .link-container {
+      display: none; /* Hide the links */
+    }
+  
+    .promotional-text {
+      text-align: center; /* Ensure text is centered */
+      justify-content: center;
+      color: #fff;
+    }
+  }
+  

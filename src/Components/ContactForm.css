@@ -1,0 +1,84 @@
+/* styles.css */
+.form-control:focus {
+    border-color: rgba(255, 86, 86, 0.938); /* or use 'transparent' for a transparent border */
+    box-shadow: none; /* optional: remove the default blue shadow */
+  }
+  .Papular_brands>div{
+    margin: 10px;
+    padding: 40px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(191, 191, 191, 0);
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba(183, 183, 183, 0.635);
+  }
+  .Papular{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(180, 180, 180, 0.37);
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+padding: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+width: 100%;
+margin: 10px;
+  }
+  /* src/ContactForm.css */
+
+.contact-title {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 85%, rgba(255, 255, 255, 0.804)) border-box;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 30px;
+  padding: 5px;
+}
+
+.contact-label {
+  margin-bottom: 10px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.contact-btn {
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: rgba(255, 66, 66, 0.888);
+  border: rgba(255, 66, 66, 0.888);
+}
+
+.company-name {
+  font-size: 1.8rem;
+}
+
+.company-address, .contact-detail {
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgb(255, 0, 0) 25%, rgb(255, 255, 255) 95%, rgba(255, 255, 255, 0.804)) border-box;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-left: none;
+  border-right: none;
+  border-bottom-right-radius: 30px;
+  padding: 5px;
+}
+
+.contact-section-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-title, .contact-label, .company-name, .contact-section-title, .contact-detail, .company-address {
+    text-align: center;
+  }
+  
+  .contact-btn {
+    width: 100%;
+  }
+}

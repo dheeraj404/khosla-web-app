@@ -1,0 +1,46 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "description": "Description for product 1",
+        "price": 29.99,
+        "image": "https://example.com/images/product1.jpg",
+        "brand": "BrandA"
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Description for product 2",
+        "price": 49.99,
+        "image": "https://example.com/images/product2.jpg",
+        "brand": "BrandA"
+      },
+      {
+        "id": 3,
+        "name": "Product 3",
+        "description": "Description for product 3",
+        "price": 19.99,
+        "image": "https://example.com/images/product3.jpg",
+        "brand": "BrandB"
+      },
+      {
+        "id": 4,
+        "name": "Product 4",
+        "description": "Description for product 4",
+        "price": 39.99,
+        "image": "https://example.com/images/product4.jpg",
+        "brand": "BrandB"
+      },
+      {
+        "id": 5,
+        "name": "Product 5",
+        "description": "Description for product 5",
+        "price": 59.99,
+        "image": "https://example.com/images/product5.jpg",
+        "brand": "BrandC"
+      }
+    ],
+    "totalPages": 1
+  }
+  

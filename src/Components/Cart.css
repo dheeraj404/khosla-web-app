@@ -1,0 +1,32 @@
+/* Cart.css */
+
+.coupon-form {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat"
+  }
+  
+  .coupon-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    flex: 1;
+    font-family: "Montserrat"
+  }
+  
+  .coupon-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #565656;
+    color: #fff;
+    border-radius: 20px;
+    height: 38px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-family: "Montserrat"
+  }
+  
+  .rounded-button {
+    border-radius: 20px;
+  }
+  

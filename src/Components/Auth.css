@@ -1,0 +1,72 @@
+/* src/components/Auth.css */
+
+.auth-container {
+    /* background-color: #fff;
+ padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem; */
+    font-family: "Montserrat", Sans-serif;
+  }
+  
+  h3 {
+   color: rgb(53, 53, 53); /* Red color for the title */
+    font-family: "Montserrat", Sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+  }
+  
+  .form-control {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control button {
+    margin-top: .5rem;
+    background-color: rgb(225, 6, 6);
+  }
+  
+  .long-btn {
+    width: 100%;
+    padding: 0.75rem;
+  }
+  
+  .toggle-btn {
+    color: #dc3545; /* Red color for toggle buttons */
+  }
+  
+  .social-btn {
+    border-color: #dc3545; /* Red border for social buttons */
+    color: #dc3545; /* Red color for social buttons */
+  }
+  
+  .social-btn:hover {
+    background-color: #dc3545; /* Red background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .auth-container {
+      margin-top: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    .form-control {
+      font-size: 0.9rem;
+    }
+  
+    .toggle-btn,
+    .social-btn {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .auth-container {
+    padding: 20px;
+    width: 100%; /* Ensure the form takes up the full width of the modal */
+  }
+  

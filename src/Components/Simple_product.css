@@ -1,0 +1,9 @@
+.Simple_product{
+    background: rgb(255, 255, 255);
+box-shadow: 0 2px 3px 0 rgba(216, 216, 216, 0.37);
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 2px solid rgba(255, 255, 255, 0.838);
+border-top: 4px solid rgba(235, 235, 235, 0.658);
+}
